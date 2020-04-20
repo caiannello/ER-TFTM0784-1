@@ -8,10 +8,10 @@ Ported to Arduino by Craig Iannello, original by Javen Liu
 
 Devices accessed and pin usage:
 ```
-   CHIP    PURPOSE           INTERFACE`
-   RA8876  Graphics Driver   SPI 4-Wire OR 8/16 bit Parallel`
-   GT911   Touch             I2C + Interrupt flag output`
-   SSD2828 MIPI bridge       SPI 4-Wire`
+   CHIP    PURPOSE           INTERFACE
+   RA8876  Graphics Driver   SPI 4-Wire OR 8/16 bit Parallel
+   GT911   Touch             I2C + Interrupt flag output
+   SSD2828 MIPI bridge       SPI 4-Wire
 ```  
 The demo example is pretty much verbatim of Javen's original.
 
