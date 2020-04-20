@@ -1,0 +1,15 @@
+{
+	"name": "ER-TFTM0784-1",
+	"frameworks": "Arduino",
+	"platforms": "*",
+	"keywords": "ra8876, gt911, ssd2828, eastrising, buydisplay",
+	"description": "Display lib for ER-TFTM0784-1 1280x400 TFT LCD",
+	"version": "0.0.1",
+	"authors":[
+	{	"name": "Craig Iannello, Port to Arduino",
+		"maintainer": true
+	},
+	{	"name": "Javen Liu, Author of original example code",
+	}
+	]
+}
