@@ -259,6 +259,7 @@ void startSend()
     SPI.beginTransaction(SPISettings(SPI_SPEED_8876, MSBFIRST, SPI_MODE0));
     pinMode(CS_SER_8876,OUTPUT);
     digitalWrite(CS_SER_8876, LOW);
+    bus_delay();
   } else
   {
     
@@ -270,8 +271,9 @@ void endSend()
 {
   if(mode_8876==2)
   {
-    digitalWrite(CS_SER_8876, HIGH);
     SPI.endTransaction();
+    bus_delay();    
+    digitalWrite(CS_SER_8876, HIGH);
   } else
   {
     
