@@ -1,7 +1,13 @@
 ```
 ///////////////////////////////////////////////////////////////////////////////
 
-Display library for EASTRISING 1280x400 TFT LCD (model ER-TFTM0784-1) 
+Display library for EASTRISING 1280x400 TFT LCD (model ER-TFTM0784-1)
+
+This one is different from its peers, which usually have just a RA8876. 
+It adds An SSD2828 controller which requires its own initialization.
+
+This is a sloppy port to Arduino of demo code originally written by 
+JAVEN LIU. (For C8051 MCU's).
 
 Product URL:
 
